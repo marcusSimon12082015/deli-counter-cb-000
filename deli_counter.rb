@@ -6,8 +6,8 @@ def line(array)
     return
   else
     array.each_with_index{ |val,index|
-      new_string += "#{index+1}. #{val}"
+      new_string += "#{index+1}. #{val} "
     }
   end
-  puts "The line is currently: #{new_string} "
+  puts "The line is currently: #{new_string}"
 end
