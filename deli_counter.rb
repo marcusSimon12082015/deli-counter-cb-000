@@ -2,7 +2,7 @@
 def line(array)
   new_string = ""
   if array.size == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     array.each_with_index{ |val,index|
       new_string += "#{index+1}. #{val}"
