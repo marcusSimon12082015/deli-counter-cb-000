@@ -11,3 +11,8 @@ def line(array)
   end
   puts "The line is currently:#{new_string}"
 end
+
+def take_a_number(array,name)
+  array.push(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)} in line."
+end
