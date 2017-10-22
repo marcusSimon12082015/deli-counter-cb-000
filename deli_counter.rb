@@ -8,5 +8,5 @@ def line(array)
       new_string += "#{index+1}. #{val}"
     }
   end
-  return "The line is currently: #{new_string}"
+  puts "The line is currently: #{new_string}"
 end
