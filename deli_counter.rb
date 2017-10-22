@@ -18,6 +18,5 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  element = array.shift
   puts "Currently serving #{array.shift}."
 end
