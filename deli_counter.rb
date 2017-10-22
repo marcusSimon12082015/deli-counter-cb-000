@@ -19,5 +19,5 @@ end
 
 def now_serving(array)
   element = array.shift
-  puts "Currently serving #{element}."
+  puts "Currently serving #{array.shift}."
 end
